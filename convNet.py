@@ -86,7 +86,7 @@ train = tf.train.AdamOptimizer(0.001).minimize(cost)
 train_cost = []
 val_cost = []
 acc_array = []
-n_epochs = 20
+n_epochs = 30
 batch_size = 50
 iters = data.train.num_examples/batch_size
 
